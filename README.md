@@ -1,84 +1,66 @@
-# Top-Five-European-Football-Leagues-Analysis---2024-2025-Season
-This project provides a comprehensive dashboard analysis of the Top 5 European Football Leagues (Premier League, La Liga, Serie A, Bundesliga, and Ligue 1) using Power BI (Power Query) for data preparation and Tableau for interactive visualizations
+# ⚽ Top-Five-European-Football-Leagues-Analysis (2024–2025 Season)
 
+This project provides a comprehensive **dashboard analysis** of the Top 5 European Football Leagues — *Premier League, La Liga, Serie A, Bundesliga, and Ligue 1* — using **Excel (Power Query)** for data cleaning and **Tableau** for interactive data visualization.
 
+---
 
-📌 Objective
-  To deliver insightful visual analytics about players and teams in the top 5 leagues, covering:
+## 📌 Objective
 
-  1- Player contributions (goals + assists)
+Deliver actionable insights about players and teams across the top leagues, focusing on:
 
-  2- Defensive actions (tackles and interceptions)
+1. 🥅 Player contributions (goals + assists)  
+2. 🛡️ Defensive actions (tackles & interceptions)  
+3. 🧤 Goalkeeping stats (saves & clean sheets)  
+4. ⚖️ Team goal comparisons  
+5. 📈 League-wide trends (cards, goals, player distribution)  
+6. 🧬 Player demographics & positional spread  
 
-  3- Goalkeeping stats (saves and clean sheets)
+---
 
-  4- Team goal comparisons
+## 🧼 Data Cleaning & Preprocessing (Excel)
 
-  5- League-wide trends (cards, goals, and player distribution)
+Raw data was cleaned using **Power Query Editor** in Excel.
 
-  6- Player demographics and positional analysis
+### ✅ Key Steps:
+- Removed unnecessary columns (e.g., PKA, PKsv)
+- Renamed columns for clarity
+- Split multi-value columns (e.g., position into roles)
+- Filtered out invalid or duplicate rows
+- Replaced null/inconsistent values
+- Standardized formats (dates, team names, etc.)
+- Final output: a clean, analysis-ready dataset for Tableau
 
+![Data Cleaning](Data%20cleaning.png)
 
+---
 
+## 📊 Tableau Dashboards
 
-🧼 Data Cleaning & Preprocessing (Excel)
-  All raw data was imported and cleaned using Power Query Editor in Excel:
+### 1️⃣ League Overview
 
-✅ Key Steps Taken:
-  1-Removed unnecessary columns (e.g., PKA, PKsv, etc.)
+- **Top Scoring Teams**: Highest goal-scoring clubs (e.g., Bayern, Barcelona, Liverpool)  
+- **Player Nationality Map**: Geographic distribution of players  
+- **League Stats**:
+  - Total goals per league  
+  - Player count per league  
+  - Yellow/Red card comparison  
+- **Top Player-Supplying Countries**
 
-  2-Renamed columns for clarity
+![League Overview Dashboard](dashboard1.png)
 
-  3-Split columns where needed (e.g., position into multiple roles)
+---
 
-  4-Filtered invalid or duplicate rows
+### 2️⃣ Top Players Analysis
 
-  5-Replaced null or inconsistent values
+- **Player Contributions**: Goals + assists by top players (e.g., Salah, Mbappé, Kane)  
+- **Top Tacklers**: Ranked by tackles/interceptions  
+- **Goalkeepers**: Saves & clean sheets  
+- **Age Distribution**: Player age demographics  
+- **Positional Spread**: Number of players by position (FW, MF, DF, GK)
 
-  6-Standardized formats (e.g., date, names, teams)
+![Top Players Dashboard](dashboard2.png)
 
-  7-Created a clean, analysis-ready dataset for Tableau
+---
 
-![Alt%text](Data%cleaning)
-
-
-
-📊 #Tableau Dashboards
-
-#2. League Overview
-
-Top Goal-Scoring Teams: Clubs with the most goals (e.g., Bayern, Barcelona, Liverpool)
-
-Player Nationality Map: Distribution of players globally
-
-League Stats:
-
-Total goals per league
-
-Number of players per league
-
-Yellow/red card comparisons
-
-Top Countries Supplying Players: Based on count in top leagues
-![Alt%text](dashboard1.png)
-
-
-
-
-#2. Top Players Analysis
-
-Player Contributions: Goals and assists by top forwards (Salah, Mbappé, Kane, etc.)
-
-Top Tacklers: Defensive actions ranked
-
-Goalkeeping: Saves and clean sheets comparison
-
-Age Distribution: Demographics of active players
-
-Positional Spread: Number of players in each role (FW, DF, MF, GK)
-![Alt%text](dashboard2.png)
-
-
-
-
-
+> Built with 💪 Excel + Tableau | Season: 2024–2025  
+> By: Ziad Mohamed
