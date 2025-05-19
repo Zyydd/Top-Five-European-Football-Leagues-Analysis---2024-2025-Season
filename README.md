@@ -3,7 +3,7 @@ This project provides a comprehensive dashboard analysis of the Top 5 European F
 
 
 
-📌 #Objective
+📌 Objective
   To deliver insightful visual analytics about players and teams in the top 5 leagues, covering:
 
   1- Player contributions (goals + assists)
@@ -21,7 +21,7 @@ This project provides a comprehensive dashboard analysis of the Top 5 European F
 
 
 
-🧼 #Data Cleaning & Preprocessing (Power BI)
+🧼 Data Cleaning & Preprocessing (Excel)
   All raw data was imported and cleaned using Power Query Editor in Excel:
 
 ✅ Key Steps Taken:
@@ -39,7 +39,8 @@ This project provides a comprehensive dashboard analysis of the Top 5 European F
 
   7-Created a clean, analysis-ready dataset for Tableau
 
-![Alt%text](Data-cleaning.png)
+![Alt%text](Data%cleaning)
+
 
 
 📊 #Tableau Dashboards
